@@ -1,0 +1,31 @@
+{
+  "name": "lighttest",
+  "version": "1.0.0",
+  "description": "Lighthouse testing suite with puppeteer ",
+  "main": "test.js",
+  "dependencies": {
+    "chrome-launcher": "^0.15.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.17.1",
+    "puppeteer": "^13.0.1",
+    "request": "^2.88.2",
+    "util": "^0.12.4",
+    "lighthouse": "^9.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "atocchi"
+  },
+  "keywords": [
+    "lighthouse",
+    "puppeteer",
+    "node"
+  ],
+  "author": "Atocchi",
+  "license": "MIT"
+}
